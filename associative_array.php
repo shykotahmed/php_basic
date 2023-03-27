@@ -29,6 +29,8 @@ $foods['vegetable'] .= ',Potato';
 echo $foods['vegetable'];
 
 
+echo "test test";
+
 
 
 
