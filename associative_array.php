@@ -32,6 +32,7 @@ echo $foods['vegetable'];
 echo "test test";
 
 echo"office test ";
+echo"home test ";
 
 
 
