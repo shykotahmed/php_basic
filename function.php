@@ -132,16 +132,39 @@ function wow($name){
 }
 //wow();
 $func = "wow";
-$func("Saikot");
+$func("Saikot");   //Output:Hello Saikot
 echo "<br>";
 
 //---------------> 
 $func = function ($name){
     echo "$name Bangladesh";
 };
-$func ("Hello MY");
-
+$func ("Hello MY");   //Output: Hello MY Bangladesh
 echo "<br>";
+
+
+//PHP Recursive Function -------------------------> 
+
+function display($number){
+    if ($number <=5) {
+        echo "$number <br>";
+        display($number +1);
+    }
+    
+}
+display(4);   //Output: 4 5
+
+
+//--------------------- fictorial 
+
+function factorial($n){
+    if ($n==0) {
+        return 1;
+    } else {
+        return ($n * factorial($n-1));
+    }
+}  
+echo factorial(5);    //Output: 120
 
 
 
