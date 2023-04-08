@@ -98,7 +98,7 @@ function cost($vegitables,$fruits,$drinks){
 }
 function percentage1($ct){
     $per = $ct / 3;
-    echo $per ."%";
+    echo $per ."%";           //Output: 266.66666666667%
 
 }
 //echo cost(100,200,300);
@@ -108,7 +108,48 @@ percentage1($total);
 
 echo "<br>";
 
-//--------------
+//PHP Function Argument By Reference --------------> 
+
+function first($num){
+    $num +=5;
+}
+function second(&$num){
+    $num +=7;
+}
+$number = 10;
+first($number);
+echo "Original Number is $number <br>"  ; //Output: Original Number is 10
+
+second($number);
+echo "Original Number is $number <br> ";    //Output: Original Number is 17
+
+echo "<br>";
+
+//PHP Variable Functions ---------------->
+
+function wow($name){
+    echo "Hello $name";
+}
+//wow();
+$func = "wow";
+$func("Saikot");
+echo "<br>";
+
+//---------------> 
+$func = function ($name){
+    echo "$name Bangladesh";
+};
+$func ("Hello MY");
+
+echo "<br>";
+
+
+
+
+
+
+
+
 
 
 
