@@ -67,6 +67,7 @@ $name = myName ("Maliha", "Rahman");
 echo "Hi $name";    //Output: Hi Maliha Rahman 
 echo "<br>";
 
+
 function mySum($x,$y){
     $z= $x+$y;
     return $z;
@@ -155,7 +156,7 @@ function display($number){
 display(4);   //Output: 4 5
 
 
-//--------------------- fictorial 
+//--------------------- factorial 
 
 function factorial($n){
     if ($n==0) {
@@ -165,6 +166,8 @@ function factorial($n){
     }
 }  
 echo factorial(5);    //Output: 120
+
+//test office
 
 
 
