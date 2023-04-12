@@ -40,7 +40,7 @@ echo "<br>";
 function myTitle($fname){
     echo " $fname Ahmed <br>";
 }
-myTitle("Saikot");   //Output: Saikot Ahmed
+myTitle("Saikot");   //Output: Saikot Ahmed...
 myTitle("Rahim");
 myTitle("Karim");      
 echo "<br>";
@@ -50,7 +50,7 @@ echo "<br>";
 function familyName($fname,$year){
     echo "My name is $fname Ahmed. Born is $year <br>";
 }
-familyName("Kamal",1995);      //Output:My name is Kamal Ahmed. Born is 1995
+familyName("Kamal",1995);      //Output:My name is Kamal Ahmed. Born is 1995...
 familyName("Somrat",2003);
 familyName("Rabbi",1998);     
 echo "<br>";
@@ -167,7 +167,11 @@ function factorial($n){
 }  
 echo factorial(5);    //Output: 120
 
-//test office
+//test office 1
+
+//OSTAD--------------->
+
+
 
 
 
