@@ -170,8 +170,7 @@ echo factorial(5);    //Output: 120
 //test office 1
 
 //OSTAD--------------->
-
-
+  
 
 
 
